@@ -1,8 +1,5 @@
 import axios from 'axios';
 
-// Client ID
-// 1NMVC6MjvV3LLysraQYgpA
-
 export default axios.create({
   baseURL: "https://api.yelp.com/v3/businesses",
   headers: {
